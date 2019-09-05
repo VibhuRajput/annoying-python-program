@@ -1,0 +1,9 @@
+import webbrowser
+import time as t
+import random as r
+while True:
+    sites=r.choice(["google.com","youtube.com","facebook.com"])
+    visit="http://{}",format(sites)
+    webbrowser.open("sites")
+    seconds=r.randrange(5,25)
+    t.sleep(seconds)
